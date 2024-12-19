@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: printing my email address here 
-        run echo "deepakgupta@gmail.com"
+        run: echo "deepakgupta@gmail.com"
