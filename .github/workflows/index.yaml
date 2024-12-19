@@ -9,7 +9,7 @@ jobs:
 
   Test:
     name: Test
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps: 
     - name: This is Test Step 
       run: echo "Welcome to Test step"
