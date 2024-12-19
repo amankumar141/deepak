@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: This is Build Step 
         run: echo "Welcome to Build step"
+
+  Test:
+    steps:
+      - name: This is Test Step 
+        run: echo "Welcome to Test step"
