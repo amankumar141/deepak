@@ -1,8 +1,8 @@
-name: Print my email_id
+name: CI/CD pipeline
 on: push
 jobs:
   Build:
     runs-on: ubuntu-latest
     steps:
-      - name: printing my email address here 
-        run: echo "deepakgupta@gmail.com"
+      - name: This is Build Step 
+        run: echo "Welcome to Build step"
