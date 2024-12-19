@@ -5,10 +5,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: This is Build Step 
-        run: echo "Welcome to Build step"
+        run: echo "Successfully Build"
 
   Test:
     runs-on: ubuntu-latest
     steps: 
     - name: This is Test Step 
-      run: echo "Welcome to Test step"
+      run: echo "tested successfully"
+
+  Deploy:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: This is Deploy Step 
+      run: echo "deployed successfully"
