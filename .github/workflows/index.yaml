@@ -8,5 +8,8 @@ jobs:
         run: echo "Welcome to Build step"
 
   Test:
-    name: This is Test Step 
-    run: echo "Welcome to Test step"
+    name: We are testing this
+
+    steps: 
+    - name: This is Test Step 
+      run: echo "Welcome to Test step"
